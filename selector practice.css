@@ -1,0 +1,39 @@
+/* Universal selector */
+*{
+    color: red;}
+
+    /* Type selector */
+   /* single */
+   h2
+    {color: blue;}
+
+    /* multiple */
+    h2,span
+    {color: green;}
+   /* class selectors */
+  .classpractice
+  {color: aqua;}
+
+  /* ID selector */
+  #paragraph{
+    color: brown;
+  } 
+  /* Child selector */
+  span > p{
+    color: blueviolet;
+  } 
+  /* Descendant selector */
+  div p{
+    color: antiquewhite;
+  }  
+  
+  /* Adjacent Sibling Selector */
+  h1+p{
+    color: blue;
+  }
+
+  /* General Sibling Selector */
+  h1~p{
+    color: brown;
+  } 
+  
